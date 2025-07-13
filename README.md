@@ -15,7 +15,7 @@ Código modular y claro, dividido en clases y funciones reutilizables.
 
 🛠 Tecnologías utilizadas:
 Python 3.x,
-Tkinter.
+Tkinter,
 SQLite,
 Github
 
