@@ -15,6 +15,9 @@ Código modular y claro, dividido en clases y funciones reutilizables.
 
 🛠 Tecnologías utilizadas:
 Python 3.x
+Tkinter
+SQLite
+Github
 
 Estructura orientada a objetos
 
