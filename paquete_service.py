@@ -1,3 +1,4 @@
+# paquete_service.py
 import sqlite3
 from db import crear_conexion
 
@@ -5,7 +6,10 @@ def cargar_paquetes_iniciales():
     iniciales = [
         ("Bariloche", "3 días con hotel 4★", 120000),
         ("Mendoza", "Tour de vinos y hotel boutique", 95000),
-        ("Ushuaia", "Excursiones de nieve + hospedaje", 150000)
+        ("Ushuaia", "Excursiones de nieve + hospedaje", 150000),
+        ("Rio de Janeiro", "Playa y city tour con hotel", 250000),
+        ("San Pablo", "Paquete urbano con shopping + hotel", 220000),
+        ("Frankfurt", "Vuelo directo + hotel céntrico", 600000)
     ]
     conn = crear_conexion()
     c = conn.cursor()
